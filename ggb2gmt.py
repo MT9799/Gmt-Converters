@@ -177,7 +177,7 @@ def process_xml(xml_file):
                     gmt_text += c_out0p+'=Linepoint['+c_in0p+','+str(-atan)+']\n'
                 else:
 
-                    
+                    #以后再把这个坑填了（
                     gmt_text += c_out0p+'=Linepoint['+c_in0p+','+str(r.randrange(20,80)/100)+']  #Detected unsupported constructions, the parameter is random.\n'
 
             elif c_nm == 'Intersect':
